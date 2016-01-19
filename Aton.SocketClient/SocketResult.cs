@@ -9,7 +9,6 @@ namespace Aton.SocketClient
     {
         public SocketResult() { Result = false; Desc = string.Empty; }
         public bool Result { get; set; }
-
         public string Desc { get; set; }
     }
 }

@@ -6,20 +6,20 @@ using System.Text;
 namespace Aton.SocketClient
 {
     /// <summary>
-    /// 网络模式
+    /// server socket mode
     /// </summary>
     public enum ServerMode : int
     {
         /// <summary>
-        /// TCP模式
+        /// TCP mode
         /// </summary>
         TCP=1,
         /// <summary>
-        /// UDP模式
+        /// UDP mode
         /// </summary>
         UDP=2,
         /// <summary>
-        /// Aton双Socket模式
+        /// Aton double Socket mode
         /// </summary>
         AtonUDP=3
 
