@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aton.SocketClient", "Aton.SocketClient\Aton.SocketClient.csproj", "{E478334F-577E-48E7-A1A6-3F3431DDADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aton.SocketClient.Sample", "Aton.SocketClient.Sample\Aton.SocketClient.Sample.csproj", "{A4471F07-6EC6-42D3-B037-C46FC446FCD4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aton.SocketClient.DotnetCore", "Aton.SocketClient.DotnetCore\Aton.SocketClient.DotnetCore.xproj", "{D8F9D63B-1208-4640-8AAE-D63342DD8FD0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aton.SocketClient.Sample.DotnetCore", "Aton.SocketClient.Sample.DotnetCore\Aton.SocketClient.Sample.DotnetCore.xproj", "{2432CEF1-BF5D-4251-BCDB-2B2098D0EF87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E478334F-577E-48E7-A1A6-3F3431DDADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E478334F-577E-48E7-A1A6-3F3431DDADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E478334F-577E-48E7-A1A6-3F3431DDADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4471F07-6EC6-42D3-B037-C46FC446FCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4471F07-6EC6-42D3-B037-C46FC446FCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4471F07-6EC6-42D3-B037-C46FC446FCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4471F07-6EC6-42D3-B037-C46FC446FCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F9D63B-1208-4640-8AAE-D63342DD8FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F9D63B-1208-4640-8AAE-D63342DD8FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F9D63B-1208-4640-8AAE-D63342DD8FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F9D63B-1208-4640-8AAE-D63342DD8FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2432CEF1-BF5D-4251-BCDB-2B2098D0EF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2432CEF1-BF5D-4251-BCDB-2B2098D0EF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2432CEF1-BF5D-4251-BCDB-2B2098D0EF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2432CEF1-BF5D-4251-BCDB-2B2098D0EF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
